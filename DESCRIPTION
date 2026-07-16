@@ -1,0 +1,16 @@
+Package: pkgdown.template
+Title: Template package for Palaeoverse pkgdown websites
+Version: 0.2.0
+Authors@R: 
+    person(given = "Etienne", family = "Bacher", email = "etienne.bacher@protonmail.com",
+      role = c("aut"), comment = c(ORCID = "0000-0002-9271-5075"))
+Description: This is a template package to be used for creating 'pkgdown' websites
+    for all Palaeoverse packages.
+License: GPL3 + file LICENSE
+URL: https://github.com/palaeoverse/pkgdown-template
+BugReports: https://github.com/palaeoverse/pkgdown-template/issues
+Imports: 
+    pkgdown (>= 2.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
