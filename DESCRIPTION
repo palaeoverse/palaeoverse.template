@@ -1,4 +1,4 @@
-Package: pkgdown.template
+Package: palaeoverse.template
 Title: Template package for Palaeoverse pkgdown websites
 Version: 0.2.0
 Authors@R: 
@@ -7,8 +7,8 @@ Authors@R:
 Description: This is a template package to be used for creating 'pkgdown' websites
     for all Palaeoverse packages.
 License: GPL3 + file LICENSE
-URL: https://github.com/palaeoverse/pkgdown-template
-BugReports: https://github.com/palaeoverse/pkgdown-template/issues
+URL: https://github.com/palaeoverse/palaeoverse-template
+BugReports: https://github.com/palaeoverse/palaeoverse-template/issues
 Imports: 
     pkgdown (>= 2.0)
 Encoding: UTF-8
