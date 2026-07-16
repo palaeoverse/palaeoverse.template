@@ -21,9 +21,25 @@ body,
 // h1 titles are too big by default so we reduce their size, except for the "#palaeoverse-" one
 // since it is the package name at the top of the page.
 h1 {
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 #palaeoverse- {
     font-size: 2.5rem !important;
+}
+
+// Render the package logo as the icon for the "palaeoverse" navbar dropdown.
+// pkgdown turns `icon: pkg-logo` into <span class="pkg pkg-logo">, which has no
+// content, so we paint the logo as a background image.
+.pkg-logo {
+    display: inline-block;
+    width: 1.4em;
+    height: 1.4em;
+    vertical-align: middle;
+    // Path is relative to the compiled CSS file (docs/deps/<bootstrap>/), which
+    // sits two levels below docs/, where pkgdown copies the package logo.
+    background-image: url("../../_brand/logos/logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }

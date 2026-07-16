@@ -1,3 +1,34 @@
 template:
   bslib:
     brand: docs/_brand/_brand.yml
+
+navbar:
+  structure:
+    left: [reference, articles, news]
+    right: [search, palaeoverse, github]
+  components:
+    reference:
+      text: Reference
+      href: reference/index.html
+      aria-label: Reference
+    articles:
+      text: Articles
+      href: articles/index.html
+      aria-label: Articles
+    news:
+      text: Changelog
+      href: news/index.html
+      aria-label: Changelog
+    palaeoverse:
+      icon: pkg-logo
+      text: Palaeoverse
+      aria-label: Palaeoverse
+      menu:
+        - text: palaeoverse
+          href: https://palaeoverse.palaeoverse.org/
+        - text: rmacrostrat
+          href: https://rmacrostrat.palaeoverse.org/
+        - text: rphylopic
+          href: https://rphylopic.palaeoverse.org/
+        - text: sepkoski
+          href: https://sepkoski.palaeoverse.org/
