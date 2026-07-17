@@ -6,15 +6,13 @@ navbar:
   structure:
     left: [reference, articles, news]
     right: [search, palaeoverse, github]
+  # We don't add "articles" in this "components" section because we want this to
+  # be a dropdown with a custom vignette order.
   components:
     reference:
       text: Reference
       href: reference/index.html
       aria-label: Reference
-    articles:
-      text: Articles
-      href: articles/index.html
-      aria-label: Articles
     news:
       text: Changelog
       href: news/index.html
