@@ -4,7 +4,7 @@ template:
 
 navbar:
   structure:
-    left: [reference, articles, news]
+    left: [articles, reference, news]
     right: [search, palaeoverse, github]
   # We don't add "articles" in this "components" section because we want this to
   # be a dropdown with a custom vignette order.
