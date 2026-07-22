@@ -1,21 +1,20 @@
-$bg-dark: mix($brand-light-blue, white, 15%);
-$bg-light: mix($brand-light-blue, white, 60%);
+$bg-light: mix($brand-light-blue, white, 15%);
+$bg-dark: mix($brand-light-blue, white, 60%);
 
 body,
-.bg-light,
 .table> :not(caption)>*>*,
 #search-input {
-    background-color: $bg-dark !important;
+    background-color: $bg-light !important;
 }
 
 .navbar {
-    background: $bg-light !important;
+    background: $bg-dark !important;
     border-bottom: 2px solid $secondary;
     margin-bottom: 1em;
 }
 
 .dropdown-menu {
-    background: $bg-light !important;
+    background: $bg-dark !important;
 }
 
 // h1 titles are too big by default so we reduce their size, except for the "#palaeoverse-" one
@@ -24,7 +23,10 @@ h1 {
     font-size: 2rem;
 }
 
-#palaeoverse-, #rphylopic-, #rmacrostrat-, #sepkoski- { 
+#palaeoverse-,
+#rphylopic-,
+#rmacrostrat-,
+#sepkoski- {
     font-size: 2.5rem !important;
 }
 
